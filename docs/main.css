@@ -3,6 +3,9 @@
 
 body{ 
   background-color: rgb(206, 203, 204);
+  margin:0;
+  padding:0;
+
 }
 
 .Menu_bar{ /*formatting the menu bar*/
@@ -181,11 +184,9 @@ body{
   border-radius: 10px;
   margin: 100px 100px;
   color:black;
-  display: flex;
+  display: inline-block;
   text-align: left;
-  
-  
-  
+
 }
 
 .finance{ 
