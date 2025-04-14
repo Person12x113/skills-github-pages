@@ -6,11 +6,11 @@ body{
   margin:0;
   padding:0;
 
+
 }
 
 .Menu_bar{ /*formatting the menu bar*/
   background-color: rgb(91, 68, 55);
-  overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%;
@@ -35,22 +35,27 @@ body{
 
 
 
-div{ /* Formatting the title page */      
+.Title{ /* Formatting the title page */      
   /* format the background*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   transform: translateY(12);
-  padding: 80px 50px 200px 20px; 
-}
+  height:100%;
+  width:100%;
+  padding-top:300px;
+  padding-left:50px;
 
 
-.Title{/* format the text*/
+
+
   font-size: 90px;
   font-family: "Lora"; 
   color: white;
 }
+
+
 
 
 
@@ -242,4 +247,10 @@ body{
   float:right;
   
   
+}
+
+
+.name{
+
+}
 }
