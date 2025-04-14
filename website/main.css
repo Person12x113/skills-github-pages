@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@467&family=Shadows+Into+Light&display=swap');
+
+body{ 
+  background-color: rgb(206, 203, 204);
+}
+
+.Menu_bar{ /*formatting the menu bar*/
+  background-color: rgb(91, 68, 55);
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom:20px
+}
+.Menu_bar a:hover { /*the format when someone hovers over the link*/
+  color: black;
+}
+.Menu_bar a{ /*formatting the menu options, the options inside the menu bar.*/
+  color:white;
+  font-family: "Shadows into light";
+  text-decoration: none;  
+   margin: 15px 27px;
+  text-align: left;
+  font-size: 30px;
+}
+.Menu_bar a.active {/* Add a color to the active link */
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+
+div{ /* Formatting the title page */      
+  /* format the background*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  transform: translateY(12);
+  padding: 80px 50px 200px 20px; 
+}
+
+
+.Title{/* format the text*/
+  font-size: 90px;
+  font-family: "Lora"; 
+  color: white;
+}
+
+
+
+p { /* formatting the text blocks on the page, */
+  background-repeat: no-repeat; 
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  transform: translateY(12);
+  margin: 30px 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  font-family: "Labrada";
+  padding: 50px 60px;
+  border-radius: 19px;
+
+}
+
+img{ /*formating the images and making them look like polaroids*/
+  width:600px;
+  padding: 20px 20px 55px 20px;
+  background-color: rgb(255,255,244);
+  
+  
+
+}
+
+
+
+/*photo formating*/
+.help{
+  margin:10px 30px 5px 30px;
+  float:left;
+  
+  
+}
+
+.pls{
+  margin:10px 30px 5px 30px;
+  float:right;
+}
+
+.ded{
+  margin:10px 30px 0px 0px;
+ 
+}
+
+
+.captions{ 
+  font-size: 10px;
+}
+
+/*Formatting the text in the General page*/
+h1{ 
+  font-family: "Labrada";
+  font-size: 50px;
+  
+}
+
+h2{
+  font-family: "Labrada";
+  font-size: 30px;
+}
+
+h3{
+  font-family: "Lora";
+  font-size: 20px;
+}
+
+.captions{ 
+ font-family: "Shadows into light";
+  font-size: 18px; 
+  
+}
+.character{
+    color:white;
+}
+
+/*Formatting thats explicit to the "characters" page*/
+.maintext{
+ background-color: rgb(255,255,244);
+  padding:20px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-right: 400px;
+  margin-left:10px;
+  margin-top:30px;
+  margin-bottom:20px;
+  font-family: "Shadows into light";
+
+ 
+
+  
+}
+
+.bugs{
+  background-color: rgb(255,255,244);
+  padding:20px;
+  border-radius: 10px;
+  margin: 100px 40px;
+  font-size: 30px;
+  font-family: "Lora";
+ 
+  
+}
+
+strong{
+  font-size:30px;
+}
+
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  transform: translateY(12);
+}
+
+.portrait{
+
+ 
+  
+}
+
+
+/* formatting the Character and general information page*/
+.flex-container{
+ background-color: rgb(196, 164, 132);
+  padding:20px;
+  border-radius: 10px;
+  margin: 100px 100px;
+  color:black;
+  display: flex;
+  text-align: left;
+  
+  
+  
+}
+
+.finance{ 
+  background-color: rgb(255, 155, 244);
+  border-radius: 10px;
+  margin: 30px;
+  padding:10px;
+  font-size:20px;
+}
+
+.time{
+   background-color: rgb(155, 255, 244);
+  border-radius: 10px;
+   margin: 30px;
+  padding:10px;
+  font-size:20px;
+  
+}
+
+.players{
+   background-color: rgb(255, 255, 144);
+  border-radius: 10px;
+   margin: 30px;
+  padding:10px;
+  font-size: 25px;
+}
+
+.publishers{
+   background-color: rgb(255, 255, 244);
+  border-radius: 10px;
+   margin: 30px;
+  padding:10px;
+  font-size:30px;
+}
+  
+
+/*formatting the creators page*/
+.giantsparrow{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  transform: translateY(12);
+  padding: 80px 50px 200px 20px; 
+  float:left;
+
+}
+
+.creators{
+  text-align: left;
+  margin:10px 20px;
+  padding: 15px 15px 5px 10px;
+  float:right;
+  
+  
+}
