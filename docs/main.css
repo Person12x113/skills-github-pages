@@ -86,22 +86,22 @@ img{ /*formating the images and making them look like polaroids*/
 
 
 /*photo formating*/
-.help{
+#Calvinsroom{
   top: 10px;
   left: 20px;
   transform: rotate(5deg);
 }
 
-.pls{
+#Mollysroom{
   top: 500px;
   left: 300px;
   transform: rotate(-5deg);
 }
 
-.ded{
+#Ediesroom{
   top: 10px;
   left: 800px;
-  transform: rotate(15deg);
+  transform: rotate(-15deg);
  
 }
 
@@ -147,31 +147,30 @@ h3{
 }
 
 /*Formatting thats explicit to the "characters" page*/
-.maintext{
- background-color: rgb(255,255,244);
+.textbox{ 
+  background-color: rgb(255,255,244);
   padding:20px;
   border-radius: 10px;
   font-size: 20px;
+  font-family: "Shadows into light";
+  box-shadow: 10px 5px 5px black;
+
+}
+
+.maintext{
+  display:inline-block;
   margin-right: 400px;
   margin-left:10px;
   margin-top:30px;
   margin-bottom:20px;
-  font-family: "Shadows into light";
-
- 
-
+  width: 650px;
+  flex-wrap: wrap;
   
 }
 
 .bugs{
-  background-color: rgb(255,255,244);
-  padding:20px;
-  border-radius: 10px;
   margin: 100px 40px;
   font-size: 30px;
-  font-family: "Lora";
- 
-  
 }
 
 strong{
@@ -184,17 +183,20 @@ body{
   background-position: center;
   background-attachment: fixed;
   transform: translateY(12);
-}
-
-.portrait{
-
- 
   
 }
 
+.portrait{
+ width:300px;
+ display:inline-block;
+}
 
-/* formatting the Character and general information page*/
-.flex-container{
+ 
+  
+
+
+/* formatting the Character page*/
+.Characters{
  background-color: rgb(196, 164, 132);
   padding:20px;
   border-radius: 10px;
@@ -202,7 +204,11 @@ body{
   color:black;
   display: inline-block;
   text-align: left;
+}
 
+.flex-wrap{
+  flex-wrap: wrap;
+  display: flex;
 }
 
 .finance{ 
@@ -260,6 +266,11 @@ body{
   
 }
 
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: red;
+}
 
 .name{
 
