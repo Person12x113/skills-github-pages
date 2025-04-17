@@ -162,8 +162,8 @@ h3{
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  gap:10px 50px;
-  
+  gap:10px 20px;
+
 }
 
 .maintext{
