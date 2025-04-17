@@ -159,10 +159,6 @@ h3{
 
 .maintext{
   display:inline-block;
-  margin-right: 400px;
-  margin-left:10px;
-  margin-top:30px;
-  margin-bottom:20px;
   width: 650px;
   flex-wrap: wrap;
   
@@ -187,7 +183,7 @@ body{
 }
 
 .portrait{
- width:300px;
+ width:350px;
  display:inline-block;
 }
 
@@ -268,7 +264,8 @@ body{
 
 .row {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-evenly
+  ;
   background-color: red;
 }
 
