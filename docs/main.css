@@ -153,8 +153,14 @@ h3{
   border-radius: 10px;
   font-size: 20px;
   font-family: "Shadows into light";
-  box-shadow: 10px 5px 5px black;
+  box-shadow: 10px 10px 10px black;
 
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+ 
 }
 
 .maintext{
@@ -262,12 +268,7 @@ body{
   
 }
 
-.row {
-  display: flex;
-  justify-content: space-evenly
-  ;
-  background-color: red;
-}
+
 
 .name{
 
