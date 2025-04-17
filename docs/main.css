@@ -123,13 +123,14 @@ img{ /*formating the images and making them look like polaroids*/
 /*Formatting the text in the General page*/
 h1{ 
   font-family: "Labrada";
-  font-size: 50px;
+  font-size: 70px;
   
 }
 
 h2{
   font-family: "Labrada";
   font-size: 30px;
+  
 }
 
 h3{
@@ -153,20 +154,22 @@ h3{
   border-radius: 10px;
   font-size: 20px;
   font-family: "Shadows into light";
-  box-shadow: 10px 10px 10px black;
+  box-shadow: 10px 10px 10px gray;
 
 }
 
 .row {
   display: flex;
   justify-content: space-evenly;
- 
+  flex-wrap: wrap;
+  gap:10px 50px;
+  
 }
 
 .maintext{
   display:inline-block;
   width: 650px;
-  flex-wrap: wrap;
+  
   
 }
 
@@ -190,9 +193,15 @@ body{
 
 .portrait{
  width:350px;
- display:inline-block;
+ box-shadow: 10px 10px 10px gray;
 }
 
+ .name{
+  text-align: center;
+  text-decoration:overline;
+  text-shadow: #7d6446 2px 2px 4px;
+
+ }
  
   
 
