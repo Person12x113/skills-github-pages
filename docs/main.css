@@ -147,6 +147,13 @@ h3{
     color:white;
 }
 
+
+
+
+
+
+
+
 /*Formatting thats explicit to the "characters" page*/
 .textbox{ 
   background-color: rgb(255,255,244);
@@ -257,7 +264,8 @@ body{
 
 .creator{
   display:flex;
- justify-content: space-around;
+ justify-content: center;
+ gap:40px;
  margin-bottom:30px;
 
 }
@@ -276,7 +284,7 @@ h5{
   padding:20px;
   background-color:white;
   font-family:"Shadows into light";
-  font-size:60px;
+  font-size:55px;
   text-align:center;
   width:fit-content;
   border-radius: 9px;
@@ -311,5 +319,11 @@ h6{
 display:flex;
 justify-content:center
 
+}
+
+/*formatting for general informatiion*/
+
+strong{
+  font-size:40px;
 }
 
