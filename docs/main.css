@@ -167,10 +167,7 @@ h3{
 }
 
 .maintext{
-  display:inline-block;
   width: 650px;
-  
-  
 }
 
 .bugs{
@@ -207,7 +204,7 @@ body{
 
 
 /* formatting the Character page*/
-.Characters{
+.Brownbackground{
  background-color: rgb(196, 164, 132);
   padding:20px;
   border-radius: 10px;
@@ -257,16 +254,7 @@ body{
   
 
 /*formatting the creators page*/
-.giantsparrow{
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  transform: translateY(12);
-  padding: 80px 50px 200px 20px; 
-  float:left;
 
-}
 
 .creators{
   text-align: left;
@@ -277,8 +265,38 @@ body{
   
 }
 
+.creator{
+  display:flex;
+ justify-content: space-around;
+}
 
 
+.creatortext{
+  width:500px;
 
 
+}
 
+
+h5{
+  padding:20px;
+  background-color:white;
+  font-family:"Shadows into light";
+  font-size:30px;
+  text-align:center;
+  width:fit-content;
+}
+
+h6{
+  font-size:40px;
+  text-align:center;
+  color:white;
+
+
+}
+
+.quote{
+
+  display:flex;
+  justify-content:center;
+}
