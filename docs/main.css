@@ -273,18 +273,22 @@ body{
 
 .creatortext{
   width:500px;
-
-
 }
 
+.creatorimage{
+  display:flex;
+  justify-content:space-between;
+}
 
 h5{
   padding:20px;
   background-color:white;
   font-family:"Shadows into light";
-  font-size:30px;
+  font-size:60px;
   text-align:center;
   width:fit-content;
+  border-radius: 9px;
+
 }
 
 h6{
@@ -296,7 +300,18 @@ h6{
 }
 
 .quote{
-
   display:flex;
   justify-content:center;
+}
+
+
+.resize{
+  width: 640px;
+  height:567.3px;
+}
+
+.thecreator{
+  text-align:center;
+
+
 }
