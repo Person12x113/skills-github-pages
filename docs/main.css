@@ -255,19 +255,11 @@ body{
 
 /*formatting the creators page*/
 
-
-.creators{
-  text-align: left;
-  margin:10px 20px;
-  padding: 15px 15px 5px 10px;
-  float:right;
-  
-  
-}
-
 .creator{
   display:flex;
  justify-content: space-around;
+ margin-bottom:30px;
+
 }
 
 
@@ -306,8 +298,7 @@ h6{
 
 
 .resize{
-  width: 640px;
-  height:567.3px;
+  width: 50%;
 }
 
 .thecreator{
@@ -315,3 +306,10 @@ h6{
 
 
 }
+
+.gameimg{
+display:flex;
+justify-content:center
+
+}
+
