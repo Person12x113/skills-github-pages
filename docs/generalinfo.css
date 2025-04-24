@@ -6,36 +6,33 @@
    }
    
    .finance{ 
-     background-color: rgb(255, 155, 244);
+     background-color: rgb(255, 255, 244);
      border-radius: 10px;
      margin: 30px;
      padding:10px;
      font-size:20px;
+     width:40%;
    }
    
    .time{
-      background-color: rgb(155, 255, 244);
+      background-color: rgb(255, 255, 244);
      border-radius: 10px;
       margin: 30px;
      padding:10px;
      font-size:20px;
+     width:40%;
+     
      
    }
    
    .players{
-      background-color: rgb(255, 255, 144);
+      background-color:rgb(255, 255, 244);
      border-radius: 10px;
       margin: 30px;
      padding:10px;
      font-size: 25px;
    }
    
-   .publishers{
-      background-color: rgb(255, 255, 244);
-     border-radius: 10px;
-      margin: 30px;
-     padding:10px;
-     font-size:30px;
-   }
+
   
   
