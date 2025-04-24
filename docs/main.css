@@ -75,7 +75,7 @@ p { /* formatting the text blocks on the page, */
 
 }
 
-img{ /*formating the images and making them look like polaroids*/
+#pictures1 img{ /*formating the images and making them look like polaroids*/
   width:600px;
   padding: 20px 20px 55px 20px;
   background-color: rgb(255,255,244);
@@ -270,6 +270,7 @@ body{
  gap:40px;
  margin-bottom:30px;
 
+
 }
 
 
@@ -343,5 +344,12 @@ display: flex;
 
 .publishers{
   display: flex;
+
+}
+
+.pictures2{
+  position: relative;
+  width:33.3vw;
+
 
 }
