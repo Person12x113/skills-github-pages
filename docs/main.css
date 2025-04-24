@@ -111,6 +111,8 @@ img{ /*formating the images and making them look like polaroids*/
   position: relative;
 }
 
+
+
 .game {
   position: absolute;
 }
@@ -305,9 +307,6 @@ h6{
 }
 
 
-.resize{
-  width: 50%;
-}
 
 .thecreator{
   text-align:center;
@@ -327,3 +326,22 @@ strong{
   font-size:40px;
 }
 
+.finance{
+display: flex;
+}
+
+.players{
+  display: flex;
+
+}
+
+.time{
+  display: flex;
+
+}
+
+
+.publishers{
+  display: flex;
+
+}
