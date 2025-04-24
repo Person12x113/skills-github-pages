@@ -55,8 +55,16 @@ body{
   color: white;
 }
 
-
-
+/*forrmatting the brown background*/
+.Brownbackground{
+  background-color: rgb(196, 164, 132);
+   padding:20px;
+   border-radius: 10px;
+   margin: 100px 100px;
+   color:black;
+   text-align: left;
+ }
+ 
 
 
 p { /* formatting the text blocks on the page, */
@@ -75,14 +83,16 @@ p { /* formatting the text blocks on the page, */
 
 }
 
-#pictures1 img{ /*formating the images and making them look like polaroids*/
-  width:600px;
+img{ /*formating the images and making them look like polaroids*/
   padding: 20px 20px 55px 20px;
   background-color: rgb(255,255,244);
-  
 
 }
 
+#pictures1 img{
+  width:600px;
+
+}
 
 
 /*photo formating*/
@@ -212,54 +222,8 @@ body{
   
 
 
-/* formatting the Character page*/
-.Brownbackground{
- background-color: rgb(196, 164, 132);
-  padding:20px;
-  border-radius: 10px;
-  margin: 100px 100px;
-  color:black;
-  display: inline-block;
-  text-align: left;
-}
+/* formatting the General Information page*/
 
-.flex-wrap{
-  flex-wrap: wrap;
-  display: flex;
-}
-
-.finance{ 
-  background-color: rgb(255, 155, 244);
-  border-radius: 10px;
-  margin: 30px;
-  padding:10px;
-  font-size:20px;
-}
-
-.time{
-   background-color: rgb(155, 255, 244);
-  border-radius: 10px;
-   margin: 30px;
-  padding:10px;
-  font-size:20px;
-  
-}
-
-.players{
-   background-color: rgb(255, 255, 144);
-  border-radius: 10px;
-   margin: 30px;
-  padding:10px;
-  font-size: 25px;
-}
-
-.publishers{
-   background-color: rgb(255, 255, 244);
-  border-radius: 10px;
-   margin: 30px;
-  padding:10px;
-  font-size:30px;
-}
   
 
 /*formatting the creators page*/
@@ -315,41 +279,15 @@ h6{
 
 }
 
-.gameimg{
-display:flex;
-justify-content:center
 
-}
-
-/*formatting for general informatiion*/
-
-strong{
-  font-size:40px;
-}
-
-.finance{
-display: flex;
-}
-
-.players{
-  display: flex;
-
-}
-
-.time{
-  display: flex;
-
-}
-
-
-.publishers{
-  display: flex;
-
-}
 
 .pictures2{
   position: relative;
   width:33.3vw;
-
+  padding: 20px 20px 55px 20px;
+  background-color: rgb(255,255,244);
 
 }
+
+
+

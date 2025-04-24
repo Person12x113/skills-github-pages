@@ -1,0 +1,41 @@
+
+   
+   .flex-wrap{
+     flex-wrap: wrap;
+     display: flex;
+   }
+   
+   .finance{ 
+     background-color: rgb(255, 155, 244);
+     border-radius: 10px;
+     margin: 30px;
+     padding:10px;
+     font-size:20px;
+   }
+   
+   .time{
+      background-color: rgb(155, 255, 244);
+     border-radius: 10px;
+      margin: 30px;
+     padding:10px;
+     font-size:20px;
+     
+   }
+   
+   .players{
+      background-color: rgb(255, 255, 144);
+     border-radius: 10px;
+      margin: 30px;
+     padding:10px;
+     font-size: 25px;
+   }
+   
+   .publishers{
+      background-color: rgb(255, 255, 244);
+     border-radius: 10px;
+      margin: 30px;
+     padding:10px;
+     font-size:30px;
+   }
+  
+  
