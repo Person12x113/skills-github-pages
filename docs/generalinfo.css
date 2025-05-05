@@ -5,7 +5,7 @@
      display: flex;
    }
    
-   .finance{ 
+   .GIboxes{ 
      background-color: rgb(255, 255, 244);
      border-radius: 10px;
      margin: 30px;
@@ -14,16 +14,8 @@
      width:40%;
    }
    
-   .time{
-      background-color: rgb(255, 255, 244);
-     border-radius: 10px;
-      margin: 30px;
-     padding:10px;
-     font-size:20px;
-     width:40%;
-     
-     
-   }
+
+    
    
    .players{
       background-color:rgb(255, 255, 244);
@@ -32,6 +24,8 @@
      padding:10px;
      font-size: 25px;
    }
+
+   
    
 
   

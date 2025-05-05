@@ -166,7 +166,7 @@ h3{
 
 
 
-/*Formatting thats explicit to the "characters" page*/
+/*Formatting for information boxes */
 .textbox{ 
   background-color: rgb(255,255,244);
   padding:20px;
@@ -194,9 +194,6 @@ h3{
   font-size: 30px;
 }
 
-strong{
-  font-size:30px;
-}
 
 body{
   background-repeat: no-repeat;
@@ -223,8 +220,18 @@ body{
 
 
 /* formatting the General Information page*/
+.playersinfo{
+  display: flex;
+  justify-content: right;
 
+}
   
+.playerstitle{
+  display:flex;
+  justify-content: left;
+
+
+}
 
 /*formatting the creators page*/
 
