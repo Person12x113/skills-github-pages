@@ -98,19 +98,20 @@ img{ /*formating the images and making them look like polaroids*/
 /*photo formating*/
 #Calvinsroom{
   top: 10px;
-  left: 20px;
+  left: 100px;
   transform: rotate(5deg);
+  
 }
 
 #Mollysroom{
   top: 500px;
-  left: 300px;
-  transform: rotate(-5deg);
+  left: 500px;
+  transform: rotate(5deg);
 }
 
 #Ediesroom{
-  top: 10px;
-  left: 800px;
+  top: 20px;
+  left: 1000px;
   transform: rotate(-15deg);
  
 }
@@ -121,50 +122,19 @@ img{ /*formating the images and making them look like polaroids*/
   position: relative;
 }
 
-
+#odinsroom{
+  top: 10px;
+  left: 100px;
+  transform: rotate(5deg);
+}
 
 .game {
   position: absolute;
 }
 
-
 .captions{ 
   font-size: 10px;
 }
-
-/*Formatting the text in the General page*/
-h1{ 
-  font-family: "Labrada";
-  font-size: 70px;
-  
-}
-
-h2{
-  font-family: "Labrada";
-  font-size: 30px;
-  
-}
-
-h3{
-  font-family: "Lora";
-  font-size: 20px;
-}
-
-.captions{ 
- font-family: "Shadows into light";
-  font-size: 18px; 
-  
-}
-.character{
-    color:white;
-}
-
-
-
-
-
-
-
 
 /*Formatting for information boxes */
 .textbox{ 
