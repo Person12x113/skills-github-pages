@@ -31,19 +31,24 @@
   background-color:rgb(255, 255, 244);
   border-radius: 10px;
   margin: 30px;
-  padding:50px;
+  padding:40px;
   font-size: 25px;
-  text-align: center;
+  text-align: left;
 }
 
-.financetext{
+.playersinfo{
+  display: flex;
+  justify-content: right;
+
+}
+  
+.playerstitle{
+  display:flex;
+  justify-content: left;
 
 
 }
 
-.financetitle{
-
-}
   
 
 
@@ -55,6 +60,9 @@
 }
 .GItitle{
   text-decoration: overline;
+  font-size:70px;
+  font-family:"labrada";
+  text-align: center;
   
 }
 
@@ -77,6 +85,7 @@
 .playerstext{
   display:flex;
   justify-content: space-evenly;
+  
 }
 
 .generalinfo{
@@ -86,7 +95,7 @@
 }
 
 #img{
-  width: 33.3em;
+  width: 30.3em;
 }
 
    

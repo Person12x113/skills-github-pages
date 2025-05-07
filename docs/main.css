@@ -57,7 +57,7 @@ body{
 
 /*forrmatting the brown background*/
 .Brownbackground{
-  background-color: rgb(196, 164, 132);
+  background-color: rgb(199, 189, 184);
    padding:20px;
    border-radius: 10px;
    margin: 100px 100px;
@@ -190,18 +190,7 @@ body{
 
 
 /* formatting the General Information page*/
-.playersinfo{
-  display: flex;
-  justify-content: right;
 
-}
-  
-.playerstitle{
-  display:flex;
-  justify-content: left;
-
-
-}
 
 /*formatting the creators page*/
 
@@ -297,5 +286,7 @@ h6{
 
 }
 
-
+h1{
+  font-size: 50px;
+}
 
