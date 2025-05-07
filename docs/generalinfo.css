@@ -1,31 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@467&family=Shadows+Into+Light&display=swap');
 
-   
-   .flex-wrap{
-     flex-wrap: wrap;
-     display: flex;
-   }
-   
-   .GIboxes{ 
-     background-color: rgb(255, 255, 244);
-     border-radius: 10px;
-     margin: 30px;
-     padding:10px;
-     font-size:20px;
-     width:40%;
-   }
-   
+.flex-wrap{
+  flex-wrap: wrap;
+  display: flex;
+}
 
-    
-   
-   .players{
-      background-color:rgb(255, 255, 244);
-     border-radius: 10px;
-      margin: 30px;
-     padding:10px;
-     font-size: 25px;
-   }
+.finance{ 
+  background-color: rgb(255, 255, 244);
+  border-radius: 10px;
+  margin: 30px;
+  padding:40px;
+  font-size:20px;
+  width:40%;
 
-   
+}
+
+.time{
+  background-color: rgb(255, 255, 244);
+  border-radius: 10px;
+  margin: 30px;
+  padding:40px;
+  font-size:20px;
+  width:40%;
+  
+  
+}
+
+.players{
+  background-color:rgb(255, 255, 244);
+  border-radius: 10px;
+  margin: 30px;
+  padding:50px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.financetext{
+
+
+}
+
+.financetitle{
+
+}
+  
+
+
+  
+
+.GItext{
+  font-size:25px;
+  text-align: center;
+}
+.GItitle{
+  text-decoration: overline;
+  
+}
+
+.INTRO{
+  border-radius: 10px;
+  margin: 30px;
+  padding:40px 100px;
+  font-size:20px;
+  width: 80%;
+}
+
+
+
+.subtitle{
+  font-family: "Labrada";
+  font-size: 55px;
+}
+
+
+.playerstext{
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.generalinfo{
+  display:flex;
+  justify-content:space-evenly;
+
+}
+
+#img{
+  width: 33.3em;
+}
+
    
 
   
