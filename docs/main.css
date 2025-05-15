@@ -291,3 +291,107 @@ h1{
   font-size: 50px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Labrada:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@467&family=Shadows+Into+Light&display=swap');
+
+.flex-wrap{
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.finance{ 
+  background-color: rgb(255, 255, 244);
+  border-radius: 10px;
+  margin: 30px;
+  padding:40px;
+  font-size:20px;
+  width:40%;
+
+}
+
+.time{
+  background-color: rgb(255, 255, 244);
+  border-radius: 10px;
+  margin: 30px;
+  padding:40px;
+  font-size:20px;
+  width:40%;
+  
+  
+}
+
+.players{
+  background-color:rgb(255, 255, 244);
+  border-radius: 10px;
+  margin: 30px;
+  padding:40px;
+  font-size: 25px;
+  text-align: left;
+}
+
+.playersinfo{
+  display: flex;
+  justify-content: right;
+
+}
+  
+.playerstitle{
+  display:flex;
+  justify-content: left;
+
+
+}
+
+  
+
+
+  
+
+.GItext{
+  font-size:25px;
+  text-align: center;
+}
+.GItitle{
+  text-decoration: overline;
+  font-size:70px;
+  font-family:"labrada";
+  text-align: center;
+  
+}
+
+.INTRO{
+  border-radius: 10px;
+  margin: 30px;
+  padding:40px 100px;
+  font-size:20px;
+  width: 80%;
+  background-color:rgb(255, 255, 244);
+}
+
+
+
+.subtitle{
+  font-family: "Labrada";
+  font-size: 55px;
+}
+
+
+.playerstext{
+  display:flex;
+  justify-content: space-evenly;
+  
+}
+
+.generalinfo{
+  display:flex;
+  justify-content:space-evenly;
+
+}
+
+#img{
+  width: 30.3em;
+}
+
+   
+
+  
