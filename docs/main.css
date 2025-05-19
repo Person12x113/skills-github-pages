@@ -95,7 +95,7 @@ img{ /*formating the images and making them look like polaroids*/
 }
 
 
-/*photo formating*/
+/*photo formating and rotating them on the page*/
 #Calvinsroom{
   top: 10px;
   left: 100px;
@@ -165,7 +165,7 @@ img{ /*formating the images and making them look like polaroids*/
 }
 
 
-body{
+body{/*making the background not repeat and scover the entirety of the page*/
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -179,7 +179,7 @@ body{
  box-shadow: 10px 10px 10px gray;
 }
 
- .name{
+ .name{/*giving each name in a overline, shadow and centering them*/
   text-align: center;
   text-decoration:overline;
   text-shadow: #7d6446 2px 2px 4px;
@@ -204,7 +204,7 @@ body{
 
 }
 
-.creatorslink{
+.creatorslink{/*the color of link when idle */
   color: white;
   font-family: "Lora";
 
@@ -229,11 +229,11 @@ body{
 }
 
 
-.creatorheading h1 {
+.creatorheading h1 {/*rem will change the font size based on the screen its displayed on*/
   font-size: 2rem;
 }
 
-#sparrowimgcontainer {
+#sparrowimgcontainer {/*the flex container that holds the images in creators page in order to have them all in a line*/
   background-color: white;
   flex-grow: 1;
   justify-items: center;
@@ -247,7 +247,7 @@ body{
 }
 
 
-h5{
+h5{/*making the text content in the */
   padding:20px;
   background-color:white;
   font-family:"Shadows into light";
