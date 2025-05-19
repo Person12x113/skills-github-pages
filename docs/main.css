@@ -9,7 +9,7 @@ body{
 
 }
 
-.Menu_bar{ /*formatting the menu bar*/
+.Menu_bar{ /*formatting the menu bar by creating a box and making sure it stays at the top with "position:fixed"*/
   background-color: rgb(91, 68, 55);
   position: fixed;
   top: 0;
@@ -204,6 +204,15 @@ body{
 
 }
 
+.creatorslink{
+  color: white;
+  font-family: "Lora";
+
+}
+.creatorslink a:hover { /*the format when someone hovers over the link*/
+  color: black;
+}
+
 .creator * { /*star means everything in the div*/
     width: 40%;
     
@@ -266,8 +275,6 @@ h6{
 
 .thecreator{
   text-align:center;
-
-
 }
 
 
@@ -291,8 +298,6 @@ h1{
   font-size: 50px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Labrada:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@467&family=Shadows+Into+Light&display=swap');
 
 .flex-wrap{
   flex-wrap: wrap;
