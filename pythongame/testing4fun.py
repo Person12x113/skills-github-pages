@@ -44,6 +44,8 @@ quiz_data = [#quiz data is a list of dictionaries
     "answer": "240"
   },
 ]
+
+
 #defining the function to draw the shape based on the number given by the user
 def move_turtle(sides,answer): #this line explains what two variables are needed for the function "move_turtle"
   angle = (180*sides-360)/sides #calculates the amount of angles compared to the amount of question or sides. i.e, 5 questions means 5 side, means 
@@ -51,15 +53,16 @@ def move_turtle(sides,answer): #this line explains what two variables are needed
     forward(60) #this and the next line draws the sides in turtle
     right(180-angle)
 
+
  
-sides = int(input("question", "How many questions do you want to answer, (1-10):"))
+sides = int(textinput("question","How many questions do you want to answer, (1-10):"))
 #this centers turtle starting position 
 penup()
 right(90)
 forward(50)
 pendown()
 #code adjusts for difficulty, giving two extra lines to start if level one or one extra line for level two
-levels = int(input("question", "Difficulty level, (3 is the easiest, 1 the hardest):"))
+levels = int(textinput("question", "Difficulty level, (3 is the easiest, 1 the hardest):"))
 initialmove = levels-1
 move_turtle(sides,initialmove)
 
@@ -68,7 +71,7 @@ for i in range(sides-initialmove):
   #choice is a function that randomly chooses from a list
   q = random.choice(quiz_data)
   #if q.get, which is the answer, when lowercase is equal to the input the player gives, it is correct
-  if q.get("answer").lower() == input("question", q.get("question")).lower():
+  if q.get("answer").lower() == textinput("question", q.get("question")).lower():
     print("Correct! congradulations!")
     move_turtle(sides,1)
   else:

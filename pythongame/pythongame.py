@@ -48,7 +48,7 @@ quiz_data = [#quiz data is a list of dictionaries
   },
 ]
 
-correct = 0
+correct = -1
 
 #defining the function to draw the shape based on the number given by the user
 def move_turtle(sides,answer): #this line explains what two variables are needed for the function "move_turtle"
