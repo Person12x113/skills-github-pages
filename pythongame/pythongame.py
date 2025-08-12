@@ -60,11 +60,12 @@ def move_turtle(sides,answer): #this line explains what two variables are needed
 while True:
   shapecol = input("What is your favourite colour?(red, orange, yellow, green, blue, purple or pink) ").strip()
   
-  if shapecol.lower == "red" or "blue" or "orange" or "green" or "yellow" :
+  if shapecol.lower() in ["red", "blue", "orange", "green", "yellow", "purple", "pink"] :
     print("Aw cool!! Thats my favourite colour too!")
     break
   else:
     print("Ooh, I don't know that color? Can you enter one of the ones I have listed?")
+    
     
   
 
@@ -97,7 +98,7 @@ for i in range(sides):
   quiz_data.remove(q) #this removes the question from the list ensuring it doesn't give the same question
 
 
-if int(correct) == sides:
+if correct + initialmove >= sides:
   print("Congratulations!! You completed the game, play again?")
   end_fill()
 else:
