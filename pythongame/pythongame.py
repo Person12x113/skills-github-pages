@@ -48,7 +48,7 @@ quiz_data = [#quiz data is a list of dictionaries
   },
 ]
 
-correct = -1
+correct = 0
 
 #defining the function to draw the shape based on the number given by the user
 def move_turtle(sides,answer): #this line explains what two variables are needed for the function "move_turtle"
@@ -71,7 +71,7 @@ initialmove = levels-1
 move_turtle(sides,initialmove)
 
   
-for i in range(sides-initialmove):
+for i in range(sides):
   #choice is a function that randomly chooses from a list
   q = random.choice(quiz_data)
   #if q.get, which is the answer, when lowercase is equal to the input the player gives, it is correct
@@ -83,7 +83,7 @@ for i in range(sides-initialmove):
     print("Incorrect... Try again with the next question.")
   quiz_data.remove(q) #this removes the question from the list ensuring it doesn't give the same question
   
-if correct == sides:
+if int(correct) == sides-initialmove:
   print("Congradulations!! You completed the game, play again?")
 else:
   print("Oh no, the shape is incompete! Thats ok, try again?")
