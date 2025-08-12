@@ -1,5 +1,3 @@
-
-
 from turtle import *
 import random #imports the built-in "random library"
 
@@ -57,15 +55,30 @@ def move_turtle(sides,answer): #this line explains what two variables are needed
     forward(60) #this and the next line draws the sides in turtle and turns the turtle the predeterminded angle
     right(180-angle)
 
- 
+#asks user for the color used at the end of the game
+
+while True:
+  shapecol = input("What is your favourite colour?(red, orange, yellow, green, blue, purple or pink) ").strip()
+  
+  if shapecol.lower == "red" or "blue" or "orange" or "green" or "yellow" :
+    print("Aw cool!! Thats my favourite colour too!")
+    break
+  else:
+    print("Ooh, I don't know that color? Can you enter one of the ones I have listed?")
+    
+  
+
+
 sides = int(input("How many questions do you want to answer, (1-10):"))
 #this centers turtle starting position 
 penup()
 right(90)
 forward(50)
 pendown()
-#code adjusts for difficulty, giving two extra lines to start if level one or one extra line for level two
-levels = int(input("Difficulty level, (3 is the easiest, 1 the hardest):"))#NEED TO PUT A CAP ON 3
+fillcolor(shapecol)
+begin_fill()
+#code adjusts for difficulty, giving two extra lines to start for level one or one extra line for level two
+levels = int(input("Difficulty level, (3 is the easiest, 1 the hardest):"))
 initialmove = levels-1
 #this calls the function, telling the turtle to draw the intialmove amount of sides
 move_turtle(sides,initialmove)
@@ -82,9 +95,11 @@ for i in range(sides):
   else:
     print("Incorrect... Try again with the next question.")
   quiz_data.remove(q) #this removes the question from the list ensuring it doesn't give the same question
-  
-if int(correct) == sides-initialmove:
-  print("Congradulations!! You completed the game, play again?")
+
+
+if int(correct) == sides:
+  print("Congratulations!! You completed the game, play again?")
+  end_fill()
 else:
   print("Oh no, the shape is incompete! Thats ok, try again?")
 mainloop()
