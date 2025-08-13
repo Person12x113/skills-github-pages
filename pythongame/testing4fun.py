@@ -1,7 +1,10 @@
 
 
 from turtle import *
-import random
+import random #imports the built-in "random library"
+
+
+
 quiz_data = [#quiz data is a list of dictionaries
   { #each dictionary defines a "question" and an "answer"
     "question": "5x10x5= ",
@@ -45,39 +48,61 @@ quiz_data = [#quiz data is a list of dictionaries
   },
 ]
 
+correct = 0
 
 #defining the function to draw the shape based on the number given by the user
 def move_turtle(sides,answer): #this line explains what two variables are needed for the function "move_turtle"
   angle = (180*sides-360)/sides #calculates the amount of angles compared to the amount of question or sides. i.e, 5 questions means 5 side, means 
   for i in range(answer):
-    forward(60) #this and the next line draws the sides in turtle
+    forward(60) #this and the next line draws the sides in turtle and turns the turtle the predeterminded angle
     right(180-angle)
 
+#asks user for the color used at the end of the game
 
- 
-sides = int(textinput("question","How many questions do you want to answer, (1-10):"))
+while True:
+  shapecol = textinput("question", "What is your favourite colour?(red, orange, yellow, green, blue, purple or pink) ").strip()
+  
+  if shapecol.lower() in ["red", "blue", "orange", "green", "yellow", "purple", "pink"] :
+    write("Aw cool!! Thats my favourite colour too!")
+    break
+  else:
+    write("Ooh, I don't know that color? Can you enter one of the ones I have listed?")
+    
+    
+  
+
+
+sides = int(textinput("question", "How many questions do you want to answer, (1-10):"))
 #this centers turtle starting position 
 penup()
 right(90)
 forward(50)
 pendown()
-#code adjusts for difficulty, giving two extra lines to start if level one or one extra line for level two
+fillcolor(shapecol)
+begin_fill()
+#code adjusts for difficulty, giving two extra lines to start for level one or one extra line for level two
 levels = int(textinput("question", "Difficulty level, (3 is the easiest, 1 the hardest):"))
 initialmove = levels-1
+#this calls the function, telling the turtle to draw the intialmove amount of sides
 move_turtle(sides,initialmove)
 
   
-for i in range(sides-initialmove):
+for i in range(sides):
   #choice is a function that randomly chooses from a list
   q = random.choice(quiz_data)
   #if q.get, which is the answer, when lowercase is equal to the input the player gives, it is correct
   if q.get("answer").lower() == textinput("question", q.get("question")).lower():
-    print("Correct! congradulations!")
-    move_turtle(sides,1)
+    (print("Correct! congradulations!"))
+    move_turtle(sides,1) #this calls the function, drawing 1 side
+    correct += 1
   else:
     print("Incorrect... Try again with the next question.")
-  quiz_data.remove(q)
-  
-  
-write("Congradulations!! You completed the game, play again?")
+  quiz_data.remove(q) #this removes the question from the list ensuring it doesn't give the same question
+
+
+if correct + initialmove >= sides:
+  write("Congratulations!! You completed the game, play again?")
+  end_fill()
+else:
+  write("Oh no, the shape is incompete! Thats ok, try again?")
 mainloop()
