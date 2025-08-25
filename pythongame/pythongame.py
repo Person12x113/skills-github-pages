@@ -98,6 +98,9 @@ for i in range(sides):
   quiz_data.remove(q) #this removes the question from the list ensuring it doesn't give the same question
 
 
+if correct + initialmove == sides:
+  penup()
+
 if correct + initialmove >= sides:
   print("Congratulations!! You completed the game, play again?")
   end_fill()
