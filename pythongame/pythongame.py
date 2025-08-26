@@ -90,7 +90,7 @@ for i in range(sides):
   q = random.choice(quiz_data)
   #if q.get, which is the answer, when lowercase is equal to the input the player gives, it is correct
   if q.get("answer").lower() == input(q.get("question")).lower():
-    (print("Correct! congradulations!"))
+    (print("Correct! Congratulations and keep at it!!"))
     move_turtle(sides,1) #this calls the function, drawing 1 side
     correct += 1
   else:
