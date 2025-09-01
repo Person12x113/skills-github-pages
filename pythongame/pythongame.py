@@ -21,7 +21,7 @@ quiz_data = [#quiz data is a list of dictionaries
     "answer": "7"
   },
     {
-    "question": "I want to buy a pickle for $18 but I only have $13. How much more money do I need? ",
+    "question": "I want to buy a pickle for $18 but I only have $13. How much more money do I need? (rememeber the $ sign!)",
     "answer": "$5"
   },
     {
